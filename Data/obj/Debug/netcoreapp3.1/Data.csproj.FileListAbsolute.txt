@@ -10,3 +10,4 @@ C:\Users\slima\asp.net\repos\AvisFormationCore.Web\Data\obj\Debug\netcoreapp3.1\
 C:\Users\slima\asp.net\repos\AvisFormationCore.Web\Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\Users\slima\asp.net\repos\AvisFormationCore.Web\Data\obj\Debug\netcoreapp3.1\Data.pdb
 C:\Users\slima\asp.net\repos\AvisFormationCore.Web\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\slima\asp.net\repos\AvisFormationCore.Web\Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
