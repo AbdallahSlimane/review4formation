@@ -1,0 +1,51 @@
+﻿@model List<DetailFormationModel>
+@{
+    ViewData["Title"] = "ToutesLesFormations";
+}
+
+<div class="jumbotron text-center mb-0">
+    <h1>Toutes les Formations</h1>
+    <p>Faites confiance à nos avis !</p>
+</div>
+
+<section class="avantages">
+
+    <div class="row text-center">
+        <div class="col-md-6 col-lg-3">
+            <h3><span class="fa fa-check fa-2x orange"></span>&nbsp;<br />Authentiques</h3>
+            <p>Des avis d'élèves bien réels</p>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <h3><span class="fa fa-glasses fa-2x orange"></span>&nbsp;<br />Transparence</h3>
+            <p>Rien ne vous est caché</p>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <h3><span class="fa fa-thumbs-up fa-2x orange"></span>&nbsp;<br />Indépendante</h3>
+            <p>Plateforme indépendante des écoles</p>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <h3><span class="fa fa-dollar-sign fa-2x orange"></span>&nbsp;<br />Gratuit</h3>
+            <p>Gratuit pour mieux servir la communauté !</p>
+        </div>
+    </div>
+
+</section>
+
+<div class="row text-center justify-content-md-center">
+    @foreach (var formation in Model)
+    {
+    <div class="formation-block col-md-6 col-lg-3">
+        <a asp-controller="Formation"
+           asp-action="DetailsFormation"
+           asp-route-nomSeo="@formation.Formation.NomSeo">@formation.Formation.Nom</a>
+        <div>
+            @formation.NoteMoyenne/5
+            @for (int i = 1; i <= formation.NoteMoyenne; i++)
+            {
+                <span class="fa fa-star orange"></span>
+            }
+        </div>
+        <p>@formation.Formation.Description</p>
+    </div>
+    }
+</div>

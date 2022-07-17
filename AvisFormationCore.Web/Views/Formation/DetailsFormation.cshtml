@@ -1,0 +1,44 @@
+﻿@model DetailFormationModel
+@{
+    ViewData["Title"] = Model.Formation.Nom;
+}
+
+
+<div class="jumbotron text-center mb-3">
+    <h1>@Model.Formation.Nom</h1>
+    <p>@Model.Formation.Description</p>
+</div>
+
+<div>
+    la formation est notée @Model.NoteMoyenne /5
+    @for (int i = 1; i <= Model.NoteMoyenne; i++)
+    {
+        <span class="fa fa-star orange"></span>
+    }
+</div>
+
+<p>Voici ce qu'en disent les anciens élèves : </p>
+<a type="button" class="btn btn-warning text-decoration-none text-light" asp-action="LaisserUnAvis" asp-controller="Avis" asp-route-idFormation="@Model.Formation.Id">Laisser un avis</a>
+@foreach (var avis in Model.Formation.Avis)
+
+{
+
+    <div class="avis-block">
+        <div>
+            @avis.Notes/5
+            @for (int i = 1; i <= avis.Notes; i++)
+            {
+                <span class="fa fa-star orange"></span>
+            }
+        </div>
+        <div>
+            <i>
+                @avis.NomUtilisateur
+            </i>
+        </div>
+        <div>
+            @avis.Commentaire
+        </div>
+    </div>
+}
+

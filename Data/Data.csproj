@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220709180237_MigrationAvis.cs" />
+    <Compile Remove="Migrations\20220709180237_MigrationAvis.Designer.cs" />
+    <Compile Remove="Migrations\20220710143342_Migration2.cs" />
+    <Compile Remove="Migrations\20220710143342_Migration2.Designer.cs" />
+    <Compile Remove="Migrations\20220712193758_seedData2.cs" />
+    <Compile Remove="Migrations\20220712193758_seedData2.Designer.cs" />
+    <Compile Remove="Migrations\20220716135700_ReRouting.cs" />
+    <Compile Remove="Migrations\20220716135700_ReRouting.Designer.cs" />
+    <Compile Remove="Migrations\20220716141542_AvisUpdate.cs" />
+    <Compile Remove="Migrations\20220716141542_AvisUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20220716141732_AvisUpdate.cs" />
+    <Compile Remove="Migrations\20220716141732_AvisUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20220716143019_AvisUpdate.cs" />
+    <Compile Remove="Migrations\20220716143019_AvisUpdate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.25">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

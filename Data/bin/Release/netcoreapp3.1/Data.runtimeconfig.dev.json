@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\slima\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\slima\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvisFormationCore.Web", "AvisFormationCore.Web\AvisFormationCore.Web.csproj", "{35100898-4043-4080-9D99-F2576AD05B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{962B1049-060F-41A7-930A-563F0ACCB9A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35100898-4043-4080-9D99-F2576AD05B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35100898-4043-4080-9D99-F2576AD05B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35100898-4043-4080-9D99-F2576AD05B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35100898-4043-4080-9D99-F2576AD05B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{962B1049-060F-41A7-930A-563F0ACCB9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962B1049-060F-41A7-930A-563F0ACCB9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962B1049-060F-41A7-930A-563F0ACCB9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962B1049-060F-41A7-930A-563F0ACCB9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E13904A3-FD4A-4C00-8380-A64350C38C1E}
+	EndGlobalSection
+EndGlobal
