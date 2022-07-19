@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XoUmsbNfaOtbYWRfk+6iV/rscZ+WIu7yTy5PFyB2erUo/KAuqHQOp7DbGQ4W31iw3esWpfCFJavQjGJlBEixkQ==",
+  "dgSpecHash": "F/Z71FUyb1W+dy7JkIPj9ymzmj4qNhAy1wWImDV79Y/fQcm1CoyapOl1LMuMIL9aVtMPCQv/tMA2qDPLn/vr9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\slima\\asp.net\\repos\\AvisFormationCore.Web\\AvisFormationCore.Web\\AvisFormationCore.Web.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,7 @@
     "C:\\Users\\slima\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\slima\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\slima\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\slima\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\slima\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.5\\microsoft.visualstudio.web.codegeneration.3.1.5.nupkg.sha512",
     "C:\\Users\\slima\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.5\\microsoft.visualstudio.web.codegeneration.contracts.3.1.5.nupkg.sha512",
     "C:\\Users\\slima\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.5\\microsoft.visualstudio.web.codegeneration.core.3.1.5.nupkg.sha512",
